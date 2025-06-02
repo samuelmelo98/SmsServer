@@ -1,0 +1,70 @@
+# Diretórios do Android Studio
+.idea/
+.gradle/
+.local.properties
+.cxx/
+
+# Arquivos de build
+/build/
+*/build/
+!*/src/**/build/
+
+# Arquivos temporários do sistema
+*.iml
+*.log
+*.tmp
+*.temp
+
+# Arquivos do Android
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Arquivos do NDK
+obj/
+*.so
+
+# Arquivos de cache
+.cache/
+captures/
+.externalNativeBuild/
+
+# Arquivos de teste e relatórios
+test-output/
+output.json
+
+# Arquivos de lock
+*.lock
+
+# Arquivos do Keystore (se estiverem localmente)
+*.jks
+*.keystore
+
+# Arquivos de configuração locais
+local.properties
+
+# IntelliJ
+*.iws
+*.ipr
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Google Services (exceto se for necessário para CI/CD)
+google-services.json
