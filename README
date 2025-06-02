@@ -1,0 +1,14 @@
+/*
+Comando para envio de SMS via POST, verifique na tela do app o IP que seu dispositivo recebeu
+e adicione ao comando a seguir.
+
+
+
+
+
+
+curl -X POST http://SEUIP:8088/send-sms \
+  -H "Content-Type: application/json" \
+  -d '{"number":"+5561981812830", "message":"SMS OK!"}'
+
+*/
